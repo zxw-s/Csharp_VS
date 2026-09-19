@@ -1,3 +1,94 @@
+> README.md 模板（C#项目，GitHub）
+> 
+> 适配 Visual Studio / Rider / VSCode，控制台、WinForm、WPF、ASP.NET Core 通用
+
+# 项目名称
+
+> 一句话简介：本项目实现XX功能
+
+## 项目简介
+
+简单描述项目用途、技术栈。
+示例：基于C#的控制台学生管理系统，实现学生信息的增删改查。
+
+## 环境要求
+
+- .NET SDK：>= 6.0 / 7.0 / 8.0（自行修改）
+- IDE：Visual Studio 2022 / Rider / VSCode
+- Git（版本控制）
+
+## 项目目录结构
+
+```plaintext
+ProjectName/
+├── ProjectName.csproj # C#项目配置文件
+├── Program.cs # 程序入口
+├── Models/ # 实体类
+├── Services/ # 业务逻辑
+├── .gitignore # Git忽略配置
+└── README.md # 项目说明文档
+```
+
+## 快速开始
+
+### 1. 克隆仓库
+
+## 快速开始
+
+### 1. 克隆仓库
+
+```bash
+git clone https://github.com/你的用户名/仓库名.git
+cd ProjectName
+```
+
+### 2. 还原项目依赖
+
+```bash
+dotnet restore
+```
+
+### 3. 编译项目
+
+```bash
+dotnet build
+```
+
+### 4. 运行程序
+
+```bash
+dotnet run
+```
+
+## 功能列表
+
+- 已完成功能1
+- 已完成功能2
+- 待开发功能3
+
+## 开发说明
+
+1. 使用 Visual Studio：直接打开 `.sln` 解决方案文件
+2. 使用 VSCode：安装 C# Dev Kit 插件，在项目目录打开
+3. 新增NuGet包后，`dotnet restore` 会自动管理依赖，无需手动维护依赖文本
+4. Git提交规范：
+   - `feat:` 新增功能
+   - `fix:` 修复bug
+   - `docs:` 修改文档
+   - `refactor:` 代码重构
+   - `style:` 代码格式调整
+
+## 常见问题
+
+- Q：提示找不到 .NET SDK？
+  A：安装对应版本.NET SDK，配置环境变量，终端输入 `dotnet --version` 验证。
+- Q：中文控制台乱码？
+  A：在代码开头设置控制台编码 `Console.OutputEncoding = System.Text.Encoding.UTF8;`
+
+## 许可证
+
+MIT
+
 # C# 控制台演示代码（适合熟悉 Visual Studio）
 
 文件名：`Program.cs` 功能：变量、数组、方法、引用参数(ref)、结构体，体验 VS 的编辑、运行、断点调试。
